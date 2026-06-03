@@ -183,7 +183,7 @@ O C# representa uma etapa madura dessa evolução: uma linguagem moderna, robust
 
 ## 🎥 Entrevista com Anders Hejlsberg: a criação e evolução do C#
 
-Uma conversa com o arquiteto do C# sobre design de linguagem, decisões técnicas e o nascimento do .NET.
+Uma conversa com o **Pai** do C# sobre design de linguagem, decisões técnicas e o nascimento do .NET.
 
 [![Watch on YouTube](https://img.youtube.com/vi/uMqx8NNT4xY/0.jpg)](https://www.youtube.com/watch?v=uMqx8NNT4xY)
 
