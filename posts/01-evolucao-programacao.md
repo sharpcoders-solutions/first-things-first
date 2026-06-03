@@ -1,5 +1,6 @@
 # 🚀 A evolução da programação: da linguagem de máquina ao poder do C#
 
+ ⏱️ Tempo de leitura: 7 minutos  
  ✍️ Autor: Vitor Santos  
  🤖 Assistido por IA (Copilot)
 
