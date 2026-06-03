@@ -1,9 +1,8 @@
 # 🚀 A evolução da programação: da linguagem de máquina ao poder do C#
 
  ⏱️ Tempo de leitura: 7 minutos  
- ✍️ Autor: Vitor Santos  
- 🤖 Assistido por IA (Copilot)
-
+ ✍️ Autor: Vitor Santos  + 🤖 Copilot
+ 
 Antes de existir código elegante, frameworks modernos e IDEs inteligentes, programar significava conversar quase diretamente com a máquina. A história da programação é, acima de tudo, a busca por mais abstração, mais clareza e mais produtividade — e poucas linguagens representam tão bem essa trajetória quanto o C#.
 
 Ao longo das décadas, a programação deixou de ser uma atividade restrita a especialistas que lidavam com instruções binárias e passou a se tornar uma disciplina central da inovação, da engenharia e dos negócios. Hoje, desenvolvemos APIs, aplicações web, jogos, sistemas corporativos e soluções em nuvem com linguagens muito mais expressivas, legíveis e poderosas.
