@@ -141,7 +141,7 @@ O C# evoluiu constantemente ao longo dos anos:
 
 Hoje, o C# é uma linguagem extremamente versátil e utilizada em:
 
-- Aplicações web (ASP.NET)  
+- Aplicações web (ASP.NET, Blazor,.Net Core)  
 - Sistemas corporativos  
 - Jogos (Unity)  
 - Aplicações mobile  
