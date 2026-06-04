@@ -141,7 +141,7 @@ C# has evolved continuously over the years:
 
 Today, C# is an extremely versatile language used in:
 
-- Web applications (ASP.NET)  
+- Web applications (ASP.NET, Blazor,.Net Core)
 - Enterprise systems  
 - Games (Unity)  
 - Mobile applications  
