@@ -1,5 +1,8 @@
 # 🚗 Programming Logic: Learning to Think Like a Driver (Before Thinking About Code)
 
+⏱️ Reading time: 5 minutes  
+ ✍️ Author: Vitor Santos + 🤖 Copilot
+
 Before learning any programming language, there is a more important skill: **thinking logically**.
 
 Programming logic is not tied to any specific technology. It is the ability to analyze problems, organize decisions, and execute steps clearly.
@@ -167,3 +170,7 @@ You need to:
 👉 When you master logic, any programming language becomes just a tool — just like knowing how to drive allows you to handle different types of cars.
 
 > 🚗 Who knows how to drive doesn’t depend on the car — who masters logic doesn’t depend on the language.
+
+## ✍️ Authors’ Note
+
+This article was produced in collaboration between **Vitor Santos** and an AI assistant (Copilot), combining practical experience with technological support to create high-quality technical content.
