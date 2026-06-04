@@ -1,5 +1,8 @@
 # 🚗 Lógica de Programação: Aprendendo a Pensar Como um Motorista (Antes de Pensar em Código)
 
+⏱️ Tempo de leitura: 5 minutos  
+✍️ Autor: Vitor Santos  + 🤖 Copilot
+
 Antes de aprender qualquer linguagem de programação, existe uma habilidade mais importante: **pensar de forma lógica**.
 
 A lógica de programação não depende de tecnologia. Ela é a capacidade de analisar problemas, organizar decisões e executar passos de forma clara.
@@ -166,3 +169,7 @@ Você precisa:
 
 👉 Quando você domina a lógica, qualquer linguagem vira apenas uma ferramenta — assim como saber dirigir permite conduzir diferentes tipos de carros.
 > 🚗 Faça seu caminho com inteligência — a lógica de programação é o que te guia.
+
+## ✍️ Nota dos autores
+
+Este artigo foi produzido em colaboração entre **Vitor Santos** e um assistente de IA (Copilot), combinando experiência prática com apoio tecnológico para criar conteúdo técnico de qualidade.
