@@ -102,7 +102,7 @@ On the other hand, poorly designed logic can compromise the entire system.
 Imagine an e-commerce system that calculates a discount:
 
 ### Input:
-- Purchase value = **R$ 200**
+- Purchase value = **$ 200**
 
 ### Applied logic (algorithm):
 ```
@@ -115,7 +115,7 @@ do not apply discount
 - Discount calculation
 
 ### Output:
-- Final value = **R$ 180**
+- Final value = **$ 180**
 
 👉 *Notice that the processing only works correctly because there is clear logic guiding each step.*
 
