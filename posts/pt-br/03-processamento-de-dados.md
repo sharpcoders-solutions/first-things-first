@@ -1,6 +1,6 @@
 # 📊 Processamento de Dados: o que é e por que ele depende da Lógica de Programação
 
-⏱️ Tempo de leitura: 5 minutos  
+⏱️ Tempo de leitura: 7 minutos  
 ✍️ Autor: Vitor Santos  + 🤖 Copilot
 
 ## 🚀 Introdução

@@ -1,6 +1,6 @@
 # 📊 Data Processing: What It Is and Why It Depends on Programming Logic
 
-⏱️ Reading time: 5 minutes  
+⏱️ Reading time: 7 minutes  
 ✍️ Author: Vitor Santos + 🤖 Copilot
 
 ## 🚀 Introduction
