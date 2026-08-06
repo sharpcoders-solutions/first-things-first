@@ -62,6 +62,56 @@ Each post is published in two languages, using the **same filename** in both fol
   - `48-api-versioning.md`
   - `49-openapi-swagger-advanced.md`
   - `50-career-interviews.md`
+  - `51-feature-flags.md`
+  - `52-hangfire-background-jobs.md`
+  - `53-rate-limiting.md`
+  - `54-yarp-api-gateway.md`
+  - `55-opentelemetry-observability.md`
+  - `56-event-sourcing.md`
+  - `57-saga-pattern.md`
+  - `58-outbox-pattern.md`
+  - `59-integration-testing-webapplicationfactory.md`
+  - `60-testcontainers.md`
+  - `61-mutation-testing.md`
+  - `62-roslyn-analyzers.md`
+  - `63-nuget-packages.md`
+  - `64-advanced-git.md`
+  - `65-trunk-based-development.md`
+  - `66-unsafe-code-pointers.md`
+  - `67-reflection-custom-attributes.md`
+  - `68-source-generators.md`
+  - `69-native-aot.md`
+  - `70-arraypool-object-pooling.md`
+  - `71-channels.md`
+  - `72-functional-programming.md`
+  - `73-covariance-contravariance.md`
+  - `74-expression-trees.md`
+  - `75-nullable-reference-types.md`
+  - `76-options-pattern.md`
+  - `77-multi-tenancy.md`
+  - `78-kafka.md`
+  - `79-event-driven-architecture.md`
+  - `80-graphql-hotchocolate.md`
+  - `81-signalr.md`
+  - `82-blazor-introduction.md`
+  - `83-dotnet-maui-introduction.md`
+  - `84-azure-functions.md`
+  - `85-aws-lambda-dotnet.md`
+  - `86-kubernetes.md`
+  - `87-helm-charts.md`
+  - `88-terraform-iac.md`
+  - `89-blue-green-canary-deploy.md`
+  - `90-chaos-engineering.md`
+  - `91-load-testing-k6.md`
+  - `92-full-observability.md`
+  - `93-identity-server-oauth2.md`
+  - `94-cryptography-data-protection.md`
+  - `95-clean-code.md`
+  - `96-legacy-code-refactoring.md`
+  - `97-mentoring-technical-leadership.md`
+  - `98-contributing-open-source.md`
+  - `99-dotnet-evolution.md`
+  - `100-final-capstone-journey-continues.md`
 - `LICENSE` — MIT license
 
 ## Current articles (beginner → advanced)
@@ -115,7 +165,57 @@ Each post is published in two languages, using the **same filename** in both fol
 47. **Fundamentos do C#: Segurança Avançada em APIs (OWASP Top 10 na Prática)** — ~7 min
 48. **Fundamentos do C#: Versionamento de API** — ~6 min
 49. **Fundamentos do C#: Documentando APIs com OpenAPI/Swagger Avançado** — ~6 min
-50. **Fundamentos do C#: Carreira — Preparando-se para Entrevistas de C#/.NET** — ~9 min (post final da trilha)
+50. **Fundamentos do C#: Carreira — Preparando-se para Entrevistas de C#/.NET** — ~9 min
+51. **Fundamentos do C#: Feature Flags e Configuração Dinâmica** — ~5 min
+52. **Fundamentos do C#: Background Jobs com Hangfire** — ~6 min
+53. **Fundamentos do C#: Rate Limiting em ASP.NET Core** — ~5 min
+54. **Fundamentos do C#: API Gateway com YARP** — ~5 min
+55. **Fundamentos do C#: Observabilidade com OpenTelemetry** — ~5 min
+56. **Fundamentos do C#: Event Sourcing — Introdução** — ~6 min
+57. **Fundamentos do C#: Padrão Saga para Transações Distribuídas** — ~6 min
+58. **Fundamentos do C#: Padrão Outbox** — ~5 min
+59. **Fundamentos do C#: Testes de Integração com WebApplicationFactory** — ~5 min
+60. **Fundamentos do C#: Testcontainers** — ~5 min
+61. **Fundamentos do C#: Mutation Testing** — ~5 min
+62. **Fundamentos do C#: Roslyn Analyzers** — ~5 min
+63. **Fundamentos do C#: Criando e Publicando Pacotes NuGet** — ~5 min
+64. **Fundamentos do C#: Git Avançado** — ~5 min
+65. **Fundamentos do C#: Trunk-Based Development** — ~5 min
+66. **Fundamentos do C#: Unsafe Code e Ponteiros** — ~5 min
+67. **Fundamentos do C#: Reflection e Atributos Customizados** — ~5 min
+68. **Fundamentos do C#: Source Generators** — ~5 min
+69. **Fundamentos do C#: Native AOT** — ~6 min
+70. **Fundamentos do C#: ArrayPool e Object Pooling** — ~5 min
+71. **Fundamentos do C#: Channels** — ~5 min
+72. **Fundamentos do C#: Programação Funcional em C#** — ~6 min
+73. **Fundamentos do C#: Covariância e Contravariância** — ~5 min
+74. **Fundamentos do C#: Expression Trees** — ~5 min
+75. **Fundamentos do C#: Nullable Reference Types em Profundidade** — ~6 min
+76. **Fundamentos do C#: Options Pattern e Configuração Avançada** — ~5 min
+77. **Fundamentos do C#: Multi-tenancy** — ~5 min
+78. **Fundamentos do C#: Kafka** — ~6 min
+79. **Fundamentos do C#: Arquitetura Orientada a Eventos** — ~5 min
+80. **Fundamentos do C#: GraphQL com HotChocolate** — ~6 min
+81. **Fundamentos do C#: SignalR** — ~6 min
+82. **Fundamentos do C#: Blazor — Introdução** — ~6 min
+83. **Fundamentos do C#: .NET MAUI — Introdução** — ~6 min
+84. **Fundamentos do C#: Azure Functions** — ~5 min
+85. **Fundamentos do C#: AWS Lambda com .NET** — ~6 min
+86. **Fundamentos do C#: Kubernetes** — ~5 min
+87. **Fundamentos do C#: Helm Charts** — ~5 min
+88. **Fundamentos do C#: Terraform / Infrastructure as Code** — ~6 min
+89. **Fundamentos do C#: Deploy Blue-Green e Canary** — ~6 min
+90. **Fundamentos do C#: Chaos Engineering** — ~6 min
+91. **Fundamentos do C#: Load Testing com k6** — ~6 min
+92. **Fundamentos do C#: Observabilidade Completa (Métricas, Traces, Logs)** — ~6 min
+93. **Fundamentos do C#: Identity Server e OAuth2** — ~6 min
+94. **Fundamentos do C#: Criptografia e Proteção de Dados** — ~6 min
+95. **Fundamentos do C#: Clean Code** — ~7 min
+96. **Fundamentos do C#: Refatoração de Código Legado** — ~7 min
+97. **Fundamentos do C#: Mentoria e Liderança Técnica** — ~6 min
+98. **Fundamentos do C#: Contribuindo para Open Source** — ~6 min
+99. **Fundamentos do C#: Acompanhando a Evolução do .NET** — ~6 min
+100. **Fundamentos do C#: Capstone Final — Sua Jornada Continua** — ~7 min (post final da trilha)
 
 Author: Vitor Santos (+ Copilot collaboration note on each post)
 

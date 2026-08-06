@@ -133,13 +133,21 @@ Durante code review (lembra do post sobre Git Workflow?), a mesma regra vale: co
 
 ---
 
-# 🎓 Fim da trilha... ou só o começo?
+# 🎓 Metade da jornada, não o fim dela
 
-Você percorreu uma jornada completa: da evolução da programação e do primeiro `Hello World`, passando por OOP, SOLID, design patterns, testes, uma API inteira construída e protegida, arquitetura de microsserviços, performance e segurança — até chegar aqui.
+Você percorreu uma jornada e tanto: da evolução da programação e do primeiro `Hello World`, passando por OOP, SOLID, design patterns, testes, uma API inteira construída e protegida, arquitetura de microsserviços, performance e segurança — até chegar aqui, no post 50.
 
-Isso não é o fim do aprendizado. É a base sólida sobre a qual toda carreira sênior em C#/.NET é construída. A partir daqui, cada projeto real que você tocar vai aprofundar o que começou como teoria nesses 50 posts.
+Isso não é o fim do aprendizado — é a base sólida sobre a qual toda carreira sênior em C#/.NET é construída. Mas a segunda metade da trilha, que começa agora, é onde você deixa de ser "quem sabe C#" e passa a ser "quem constrói sistemas de verdade, em produção, em escala".
 
-👉 **Obrigado por caminhar até aqui. Agora vá construir algo de verdade.**
+---
+
+# 🔥 Próximo passo
+
+Agora que sua base está sólida, o próximo nível é:
+
+👉 **Fundamentos do C#: Feature Flags e Configuração Dinâmica**
+
+Aqui você vai aprender a lançar funcionalidades novas com segurança, sem depender de um novo deploy para cada mudança.
 
 ## ✍️ Nota dos autores
 
