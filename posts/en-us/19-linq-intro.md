@@ -163,9 +163,9 @@ var fixedList = numbers.Where(n => n > 2).ToList();
 
 Now that you know how to query and transform collections, the next level is:
 
-👉 **C# Fundamentals: Classes and Objects (Introduction to Object-Oriented Programming)**
+👉 **C# Fundamentals: DateOnly and TimeOnly**
 
-Here you'll start modeling the real world inside your code.
+Here you'll meet two types that solve a classic `DateTime` problem: representing just a date, or just a time, without carrying information that doesn't make sense for your domain.
 
 ## ✍️ Author's Note
 

@@ -163,9 +163,9 @@ var listaFixa = numeros.Where(n => n > 2).ToList();
 
 Agora que você sabe consultar e transformar coleções, o próximo nível é:
 
-👉 **Fundamentos do C#: Classes e Objetos (Introdução à Programação Orientada a Objetos)**
+👉 **Fundamentos do C#: DateOnly e TimeOnly**
 
-Aqui você começa a modelar o mundo real dentro do seu código.
+Aqui você vai conhecer dois tipos que resolvem um problema clássico do `DateTime`: representar só a data, ou só o horário, sem carregar informação que não faz sentido no seu domínio.
 
 ## ✍️ Nota dos autores
 
