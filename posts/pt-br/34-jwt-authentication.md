@@ -7,10 +7,10 @@
 
 Até aqui, você aprendeu:
 
-- Como construir e organizar uma API com Clean Architecture  
+- Extension Methods e como o LINQ é construído por baixo dos panos  
 - Como persistir dados de verdade com EF Core  
 
-Sua API está funcional e bem estruturada, mas hoje ela aceita **qualquer requisição de qualquer pessoa**. Chegou a hora de fechar essa porta.
+Sua API está funcional, mas hoje ela aceita **qualquer requisição de qualquer pessoa**. Chegou a hora de fechar essa porta.
 
 👉 **Vamos proteger a API com autenticação e autorização usando JWT**
 
@@ -181,9 +181,9 @@ public IActionResult MeuPerfil()
 
 Agora que sua API está seguramente protegida, o próximo nível é:
 
-👉 **Fundamentos do C#: Docker e Deploy de uma API .NET**
+👉 **Fundamentos do C#: IDisposable e o Padrão Dispose**
 
-Aqui você vai aprender a empacotar e publicar sua aplicação de forma que ela rode de forma consistente em qualquer ambiente.
+Aqui você vai aprender a liberar recursos não gerenciados corretamente, como conexões de banco e arquivos abertos.
 
 ## ✍️ Nota dos autores
 

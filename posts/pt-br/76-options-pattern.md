@@ -149,9 +149,9 @@ builder.Services.AddOptions<ConfiguracaoApi>()
 
 Agora que você domina configuração avançada, o próximo nível é:
 
-👉 **Fundamentos do C#: Multi-tenancy**
+👉 **Fundamentos do C#: CancellationToken em Profundidade**
 
-Aqui você vai aprender a servir múltiplos clientes isolados a partir de uma única aplicação.
+Aqui você vai aprender a cancelar operações assíncronas de forma cooperativa e correta, além do básico que você já usa desde o post sobre async/await.
 
 ## ✍️ Nota dos autores
 

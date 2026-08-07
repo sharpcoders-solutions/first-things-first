@@ -8,7 +8,7 @@
 Até aqui, você aprendeu:
 
 - Testes unitários com xUnit, isolando uma classe por vez  
-- Padrão Outbox para garantir consistência entre banco e mensageria  
+- Recursos avançados de tipos: iteradores, operadores customizados, indexers e static abstract members  
 
 Testes unitários validam uma classe isolada. Mas será que o roteamento HTTP, a autenticação JWT, a injeção de dependência e o banco de dados realmente funcionam **juntos**? É isso que testes de integração respondem.
 
@@ -166,9 +166,9 @@ public async Task GetPedidos_ComTokenValido_DeveRetornar200()
 
 Agora que você testa sua API inteira em memória, o próximo nível é:
 
-👉 **Fundamentos do C#: Testcontainers**
+👉 **Fundamentos do C#: Coleções Concorrentes (ConcurrentDictionary e Cia.)**
 
-Aqui você vai aprender a testar contra um banco de dados real, rodando em container, sem sacrificar a confiabilidade dos testes.
+Aqui você vai aprender a lidar com múltiplas threads acessando a mesma coleção ao mesmo tempo, sem corromper dados nem travar sua aplicação.
 
 ## ✍️ Nota dos autores
 

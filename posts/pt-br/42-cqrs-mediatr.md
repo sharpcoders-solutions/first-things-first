@@ -8,9 +8,9 @@
 Até aqui, você aprendeu:
 
 - Mensageria para desacoplar sistemas no tempo  
-- Clean Architecture organizando a aplicação em camadas  
+- Repository pattern e injeção de dependência, organizando a aplicação em camadas  
 
-Na Clean Architecture, você criou use cases como `CriarProdutoUseCase`. Conforme a aplicação cresce, esses casos de uso se multiplicam, e as classes de serviço começam a acumular métodos de leitura e escrita misturados. Existe um padrão que separa isso de forma ainda mais explícita.
+Conforme a aplicação cresce, casos de uso se multiplicam, e as classes de serviço começam a acumular métodos de leitura e escrita misturados. Existe um padrão que separa isso de forma ainda mais explícita.
 
 👉 **Vamos conhecer CQRS e a biblioteca MediatR**
 
@@ -88,7 +88,7 @@ public async Task<IActionResult> Criar(CriarProdutoCommand command)
 }
 ```
 
-👉 O controller não conhece `CriarProdutoHandler` — ele só envia o command pelo `IMediator` e recebe o resultado. O mesmo desacoplamento do post sobre Clean Architecture, com uma sintaxe ainda mais explícita
+👉 O controller não conhece `CriarProdutoHandler` — ele só envia o command pelo `IMediator` e recebe o resultado. O mesmo desacoplamento que você já viu no post sobre SOLID (o D de Dependency Inversion), com uma sintaxe ainda mais explícita
 
 ---
 
@@ -180,9 +180,9 @@ public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, 
 
 Agora que você sabe separar comandos de consultas, o próximo nível é:
 
-👉 **Fundamentos do C#: Domain-Driven Design (DDD) — Introdução**
+👉 **Fundamentos do C#: Value Types vs Reference Types em Profundidade**
 
-Aqui você vai aprender a modelar regras de negócio complexas de um jeito que reflete de verdade a linguagem do domínio que você está construindo.
+Aqui você vai entender a diferença fundamental entre struct e class, e como isso afeta desempenho e comportamento em cada handler que você acabou de escrever.
 
 ## ✍️ Nota dos autores
 

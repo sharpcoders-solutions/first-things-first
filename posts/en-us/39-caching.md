@@ -73,7 +73,7 @@ public class ProductsController : ControllerBase
 
 # 🌐 Distributed cache: the multi-instance problem
 
-When your API runs across several containers (remember the Docker and deploy post?), `IMemoryCache` becomes a problem: each instance has its own cache, isolated from the others.
+When your API runs across several instances (multiple containers or machines behind a load balancer), `IMemoryCache` becomes a problem: each instance has its own cache, isolated from the others.
 
 ```bash
 dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis

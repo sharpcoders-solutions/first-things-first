@@ -7,7 +7,7 @@
 
 Até aqui, você aprendeu:
 
-- GraphQL como alternativa ao REST tradicional  
+- Custom awaiters e como o `await` funciona por baixo dos panos  
 - Todo o modelo request/response desde o post 31 — o cliente sempre pergunta, o servidor sempre responde  
 
 E se o servidor precisar avisar o cliente sobre algo, sem esperar uma pergunta? Um chat, uma notificação de pedido atualizado, um placar ao vivo — nada disso encaixa bem no request/response. SignalR resolve isso.
@@ -77,7 +77,7 @@ public class ServicoPedidos
 }
 ```
 
-👉 Lembra do Outbox (post 58) e da arquitetura orientada a eventos (post 79)? Esse é o mesmo espírito — quando algo acontece no servidor, ele **empurra** a notificação, em vez de esperar o cliente perguntar
+👉 É o mesmo espírito por trás de qualquer sistema orientado a eventos — quando algo acontece no servidor, ele **empurra** a notificação, em vez de esperar o cliente perguntar
 
 ---
 
@@ -117,8 +117,8 @@ await conexao.invoke("EntrarNoGrupo", "123");
 ## 🔹 REST (post 31)
 - Cliente pergunta, servidor responde — ideal para operações pontuais  
 
-## 🔹 GraphQL (post 80)
-- Cliente pergunta com precisão sobre a estrutura de dados — ainda request/response  
+## 🔹 REST assíncrono com `Task`/`ValueTask` (posts 78-80)
+- Cliente ainda espera uma resposta síncrona ao pedido — só a eficiência interna muda  
 
 ## 🔹 SignalR
 - Servidor empurra dados sem o cliente perguntar — ideal para tempo real  

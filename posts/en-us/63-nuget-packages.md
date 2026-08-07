@@ -134,9 +134,9 @@ dotnet nuget push MyCompany.Utils.1.0.0.nupkg --source "internal-feed"
 
 Now that you know how to package and share code, the next level is:
 
-👉 **C# Fundamentals: Advanced Git**
+👉 **C# Fundamentals: Lock, Monitor, and Synchronization**
 
-Here you'll learn Git commands and techniques beyond the basics: interactive rebase, cherry-pick, bisect, and reflog.
+Here you'll learn to protect critical sections of code when multiple threads access the same state at the same time.
 
 ## ✍️ Author's Note
 

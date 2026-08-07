@@ -73,7 +73,7 @@ public class ProdutosController : ControllerBase
 
 # 🌐 Cache distribuído: o problema de múltiplas instâncias
 
-Quando sua API roda em vários containers (lembra do post sobre Docker e deploy?), `IMemoryCache` vira um problema: cada instância tem seu próprio cache, isolado das outras.
+Quando sua API roda em várias instâncias (múltiplos containers ou máquinas atrás de um load balancer), `IMemoryCache` vira um problema: cada instância tem seu próprio cache, isolado das outras.
 
 ```bash
 dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis

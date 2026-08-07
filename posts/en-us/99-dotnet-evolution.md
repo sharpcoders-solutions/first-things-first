@@ -7,7 +7,7 @@
 
 So far, you've learned:
 
-- Contributing to open source, giving value back to the ecosystem  
+- AssemblyLoadContext and how to load and unload plugins at runtime  
 - A track that spanned from classic .NET Framework (post 12) to Native AOT (post 69) and the entire modern cloud ecosystem  
 
 This track covered an enormous amount of ground, but .NET never stops evolving — a new major version arrives every year, in November. Knowing where to look for what's changed is as important as knowing what already exists today.
@@ -37,7 +37,7 @@ November each year: a new major .NET version
 4. Preview releases — test ahead of the final release, usually starting around February/March
 ```
 
-👉 The same documentation-reading discipline you practiced since post 49 (OpenAPI/Swagger) applies here — the primary source is always more reliable than a third-party summary, especially for important technical decisions
+👉 The same official-documentation-reading discipline you practiced throughout the entire track applies here — the primary source is always more reliable than a third-party summary, especially for important technical decisions
 
 ---
 

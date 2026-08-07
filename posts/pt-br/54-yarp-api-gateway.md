@@ -8,9 +8,9 @@
 Até aqui, você aprendeu:
 
 - Rate Limiting para proteger uma única API  
-- Microsserviços — arquitetura com múltiplos serviços independentes  
+- gRPC para comunicação eficiente entre serviços  
 
-Quando sua arquitetura cresce para vários serviços (lembra do post sobre microsserviços?), o cliente não deveria precisar saber o endereço de cada um. É aí que entra um API Gateway.
+Quando sua arquitetura cresce para vários serviços independentes, o cliente não deveria precisar saber o endereço de cada um. É aí que entra um API Gateway.
 
 👉 **Vamos aprender a construir um Gateway com YARP (Yet Another Reverse Proxy)**
 
@@ -143,7 +143,7 @@ app.MapReverseProxy().RequireAuthorization();
 }
 ```
 
-👉 O cliente externo chama `/api/v2/pedidos`, mas o gateway reescreve para `/pedidos` internamente — o versionamento de API (lembra do post 48?) pode viver só na camada do gateway, sem forçar mudanças nos serviços internos
+👉 O cliente externo chama `/api/v2/pedidos`, mas o gateway reescreve para `/pedidos` internamente — o versionamento de API pode viver só na camada do gateway, sem forçar mudanças nos serviços internos
 
 ---
 
@@ -171,9 +171,9 @@ app.MapReverseProxy().RequireAuthorization();
 
 Agora que você tem um ponto de entrada centralizado, o próximo nível é:
 
-👉 **Fundamentos do C#: Observabilidade com OpenTelemetry**
+👉 **Fundamentos do C#: IEnumerable e Iteradores Customizados**
 
-Aqui você vai aprender a rastrear uma requisição através de múltiplos serviços, do gateway até o banco de dados.
+Aqui você vai aprender como o `foreach` realmente funciona por baixo dos panos, e como criar suas próprias sequências customizadas com `yield return`.
 
 ## ✍️ Nota dos autores
 

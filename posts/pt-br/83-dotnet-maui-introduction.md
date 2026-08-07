@@ -67,7 +67,7 @@ public partial class PaginaPedidos : ContentPage
 }
 ```
 
-👉 XAML declara a interface (parecido com Razor no Blazor, ou HTML na web), e o C# lida com a lógica — a mesma separação de responsabilidades que você já pratica desde o post sobre Clean Architecture (33)
+👉 XAML declara a interface (parecido com Razor no Blazor, ou HTML na web), e o C# lida com a lógica — a mesma separação de responsabilidades que você já pratica desde o post sobre SOLID (28)
 
 ---
 
@@ -118,7 +118,7 @@ builder.Services.AddHttpClient<ApiClient>(client =>
 builder.Services.AddTransient<PedidosViewModel>();
 ```
 
-👉 Injeção de dependência (post sobre ASP.NET Core), consumo de API REST (post 31) ou GraphQL (post 80) — a lógica de acesso a dados que você já domina no back-end funciona igual dentro de um app MAUI
+👉 Injeção de dependência (post sobre ASP.NET Core), consumo de API REST (post 31) ou GraphQL — a lógica de acesso a dados que você já domina no back-end funciona igual dentro de um app MAUI
 
 ---
 

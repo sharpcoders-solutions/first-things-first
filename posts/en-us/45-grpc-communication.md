@@ -7,7 +7,7 @@
 
 So far, you've learned:
 
-- When (and when not) to split an application into microservices  
+- Boxing, unboxing, and how value types affect performance  
 - How services communicate via HTTP and messaging  
 
 You've already built REST APIs with JSON — it works great for front-ends and public integrations. But for communication **between your own microservices**, there's a faster, more type-safe alternative.

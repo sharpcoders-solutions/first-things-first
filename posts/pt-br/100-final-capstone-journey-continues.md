@@ -23,25 +23,25 @@ Classes e objetos, herança e polimorfismo, interfaces, tratamento de exceções
 SOLID, Design Patterns e testes unitários — os princípios que separam código que funciona de código que dura
 
 ## 🔹 Construindo Sistemas Reais (posts 31–34)
-Sua primeira API, Entity Framework Core, Clean Architecture e autenticação JWT — a transição de exercícios para aplicações de produção
+Sua primeira API, Entity Framework Core, Extension Methods e LINQ Customizado, e autenticação JWT — a transição de exercícios para aplicações de produção
 
 ## 🔹 Produção e Operação (posts 35–50)
-Docker, CI/CD, logging, health checks, cache, resiliência, mensageria, CQRS, DDD, microsserviços, gRPC, performance, segurança, versionamento, documentação — culminando na preparação para entrevistas, o primeiro grande marco da trilha
+IDisposable e o padrão Dispose, streams e manipulação de arquivos, logging estruturado, health checks, cache, resiliência com Polly, mensageria com RabbitMQ, CQRS, value types vs reference types, boxing/unboxing, gRPC, performance com Span e Memory, enums e bitwise flags, tuplas e ValueTuple, anonymous types e dynamic — culminando numa retrospectiva sobre a evolução da própria linguagem C#, o primeiro grande marco da trilha
 
 ## 🔹 Arquitetura Avançada e Distribuída (posts 51–65)
-Feature flags, background jobs, rate limiting, API Gateway, observabilidade, Event Sourcing, Saga, Outbox, testes de integração, Testcontainers, mutation testing, Roslyn Analyzers, NuGet, Git avançado e Trunk-Based Development
+Feature flags, background jobs, rate limiting, API Gateway, IEnumerable e iteradores customizados, operator overloading, indexers, static abstract interface members, testes de integração, coleções concorrentes, mutation testing, Roslyn Analyzers, NuGet, lock e Monitor, e SemaphoreSlim para concorrência assíncrona
 
 ## 🔹 Profundezas da Linguagem e Runtime (posts 66–79)
-Unsafe code, Reflection, Source Generators, Native AOT, ArrayPool, Channels, programação funcional, covariância, Expression Trees, Nullable Reference Types, Options Pattern, multi-tenancy, Kafka e arquitetura orientada a eventos
+Unsafe code, Reflection, Source Generators, Native AOT, ArrayPool, Channels, programação funcional, covariância, Expression Trees, Nullable Reference Types, Options Pattern, CancellationToken, IAsyncEnumerable e async streams, e Task vs ValueTask
 
-## 🔹 Além da API REST (posts 80–83)
-GraphQL, SignalR, Blazor e .NET MAUI — C# cobrindo toda a superfície de interação com o usuário, não só o back-end
+## 🔹 Assincronismo Avançado e Novas Superfícies (posts 80–83)
+Custom Awaiters e o Awaitable Pattern, SignalR, Blazor e .NET MAUI — do controle fino sobre `await` até C# cobrindo toda a superfície de interação com o usuário, não só o back-end
 
-## 🔹 Nuvem e Infraestrutura (posts 84–92)
-Azure Functions, AWS Lambda, Kubernetes, Helm, Terraform, Blue-Green e Canary, Chaos Engineering, Load Testing e observabilidade completa
+## 🔹 Serverless e Tipos Avançados do C# (posts 84–92)
+Azure Functions, AWS Lambda, DateOnly e TimeOnly, tipos numéricos e precisão, generic math, pattern matching avançado, required members e init-only properties, regex e GeneratedRegex, e System.Text.Json avançado
 
-## 🔹 Maturidade de Engenharia (posts 93–99)
-Identity Server e OAuth2, criptografia, Clean Code, refatoração de código legado, mentoria, contribuição open source e acompanhamento da evolução do .NET
+## 🔹 Runtime, Memória e Extensibilidade (posts 93–99)
+P/Invoke e interoperabilidade nativa, WeakReference e o Garbage Collector, Server GC vs Workstation GC, culture e globalização, assembly e reflection em profundidade, AssemblyLoadContext e sistemas de plugins, e o acompanhamento contínuo da evolução do .NET
 
 ---
 
@@ -49,14 +49,14 @@ Identity Server e OAuth2, criptografia, Clean Code, refatoração de código leg
 
 👉 **No post 14, você escreveu seu primeiro "Hello World". Aqui, você sabe projetar sistemas distribuídos inteiros, capazes de escalar, se recuperar de falhas, e evoluir com segurança.**
 
-Essa distância não foi percorrida de uma vez — foi construída post a post, conceito sobre conceito, cada um se apoiando no anterior. O SOLID do post 28 apareceu de novo no Repository Pattern do post 29, na Clean Architecture do post 33, na refatoração de legado do post 96. O async/await do post 26 sustentou cada linha de código assíncrono escrita depois. Nada aqui foi isolado — tudo se conectou.
+Essa distância não foi percorrida de uma vez — foi construída post a post, conceito sobre conceito, cada um se apoiando no anterior. O SOLID do post 28 apareceu de novo no Repository Pattern do post 29, no desacoplamento do CQRS com MediatR no post 42, e na separação de responsabilidades do MVVM em .NET MAUI no post 83. O async/await do post 26 sustentou cada linha de código assíncrono escrita depois. Nada aqui foi isolado — tudo se conectou.
 
 ---
 
 # 🎯 O que fazer agora que a trilha terminou
 
 - **Construa algo de verdade** — a teoria vira conhecimento real quando você aplica em um projeto seu, do início ao fim
-- **Volte aos posts que você só entendeu parcialmente** — releia post 28 (SOLID) ou post 56 (Event Sourcing) depois de ter mais experiência prática; eles vão fazer ainda mais sentido
+- **Volte aos posts que você só entendeu parcialmente** — releia post 28 (SOLID) ou post 80 (Custom Awaiters e o Awaitable Pattern) depois de ter mais experiência prática; eles vão fazer ainda mais sentido
 - **Ensine o que você aprendeu** — lembra do post 97? Explicar um conceito para outra pessoa é o teste final de que você realmente o entendeu
 - **Continue acompanhando o ecossistema** — o post 99 não foi por acaso o penúltimo; aprendizado contínuo é o que mantém tudo isso relevante
 

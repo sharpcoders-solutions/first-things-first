@@ -7,8 +7,8 @@
 
 So far, you've learned:
 
-- The entire foundation of language, architecture, and security for a .NET API  
-- How to version and document an API in production  
+- The entire foundation of the C# language, types, and how to build a complete .NET API  
+- Modern language features: enums, tuples, anonymous types, and the evolution of C#  
 
 Time for the second half of this track: building the capabilities that separate a system that "works" from one that's **operated with maturity** in production.
 

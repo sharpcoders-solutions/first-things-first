@@ -8,9 +8,9 @@
 So far, you've learned:
 
 - Background jobs for tasks outside the request cycle  
-- Security following the OWASP Top 10  
+- Authentication and authorization with JWT  
 
-Your API is protected against classic vulnerabilities, but there's still a problem: nothing stops a single client (by mistake or bad intent) from making thousands of requests per second and taking the service down for everyone.
+Your API already authenticates and authorizes who can access what, but there's still a problem: nothing stops a single authenticated client (by mistake or bad intent) from making thousands of requests per second and taking the service down for everyone.
 
 👉 **Let's learn to limit request rates with Rate Limiting**
 

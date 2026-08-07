@@ -134,9 +134,9 @@ dotnet nuget push MinhaEmpresa.Utils.1.0.0.nupkg --source "feed-interno"
 
 Agora que você sabe empacotar e compartilhar código, o próximo nível é:
 
-👉 **Fundamentos do C#: Git Avançado**
+👉 **Fundamentos do C#: Lock, Monitor e Sincronização**
 
-Aqui você vai aprender comandos e técnicas de Git além do básico: rebase interativo, cherry-pick, bisect e reflog.
+Aqui você vai aprender a proteger seções críticas de código quando múltiplas threads acessam o mesmo estado ao mesmo tempo.
 
 ## ✍️ Nota dos autores
 

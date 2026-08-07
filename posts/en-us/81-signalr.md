@@ -7,7 +7,7 @@
 
 So far, you've learned:
 
-- GraphQL as an alternative to traditional REST  
+- Custom awaiters and how `await` works under the hood  
 - The entire request/response model since post 31 — the client always asks, the server always answers  
 
 What if the server needs to tell the client something, without waiting for a question? A chat, a notification that an order was updated, a live scoreboard — none of that fits well into request/response. SignalR solves this.
@@ -77,7 +77,7 @@ public class OrdersService
 }
 ```
 
-👉 Remember Outbox (post 58) and event-driven architecture (post 79)? Same spirit — when something happens on the server, it **pushes** the notification, instead of waiting for the client to ask
+👉 It's the same spirit behind any event-driven system — when something happens on the server, it **pushes** the notification, instead of waiting for the client to ask
 
 ---
 
@@ -117,8 +117,8 @@ await connection.invoke("JoinGroup", "123");
 ## 🔹 REST (post 31)
 - Client asks, server answers — ideal for one-off operations  
 
-## 🔹 GraphQL (post 80)
-- Client asks precisely about data structure — still request/response  
+## 🔹 Asynchronous REST with `Task`/`ValueTask` (posts 78-80)
+- Client still waits for a synchronous reply to the request — only the internal efficiency changes  
 
 ## 🔹 SignalR
 - Server pushes data without the client asking — ideal for real time  

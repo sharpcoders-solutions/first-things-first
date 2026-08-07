@@ -7,7 +7,7 @@
 
 Até aqui, você aprendeu:
 
-- Quando (e quando não) dividir uma aplicação em microsserviços  
+- Boxing, unboxing e como tipos por valor afetam performance  
 - Como serviços se comunicam via HTTP e mensageria  
 
 Você já construiu APIs REST com JSON — funciona bem para front-ends e integrações públicas. Mas para comunicação **entre seus próprios microsserviços**, existe uma alternativa mais rápida e mais segura em relação a tipos.

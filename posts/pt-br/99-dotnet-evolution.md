@@ -7,7 +7,7 @@
 
 Até aqui, você aprendeu:
 
-- Contribuindo para open source, devolvendo valor ao ecossistema  
+- AssemblyLoadContext e como carregar e descarregar plugins em tempo de execução  
 - Uma trilha que percorreu de .NET Framework clássico (post 12) até Native AOT (post 69) e todo o ecossistema moderno de nuvem  
 
 Esta trilha cobriu uma quantidade enorme de terreno, mas o .NET não para de evoluir — uma nova versão principal chega todo ano, em novembro. Saber onde procurar o que mudou é tão importante quanto saber o que já existe hoje.
@@ -37,7 +37,7 @@ Novembro de cada ano: nova versão principal do .NET
 4. Preview releases — testar antes do lançamento final, geralmente a partir de fevereiro/março
 ```
 
-👉 A mesma disciplina de ler documentação que você praticou desde o post 49 (OpenAPI/Swagger) se aplica aqui — a fonte primária é sempre mais confiável que um resumo de terceiros, especialmente para decisões técnicas importantes
+👉 A mesma disciplina de ler a documentação oficial que você praticou ao longo de toda a trilha se aplica aqui — a fonte primária é sempre mais confiável que um resumo de terceiros, especialmente para decisões técnicas importantes
 
 ---
 

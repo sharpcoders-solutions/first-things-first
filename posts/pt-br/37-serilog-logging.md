@@ -7,10 +7,10 @@
 
 Até aqui, você aprendeu:
 
-- Como automatizar build, teste e deploy com CI/CD  
-- Como containerizar e publicar sua aplicação  
+- IDisposable e o padrão Dispose  
+- Streams e manipulação de arquivos  
 
-Sua API está no ar, publicando sozinha. Mas quando algo dá errado às três da manhã, como você descobre **o quê**, **onde** e **por quê**?
+Sua API está protegida e persiste dados de verdade. Mas quando algo dá errado às três da manhã, como você descobre **o quê**, **onde** e **por quê**?
 
 👉 **É para isso que existe logging estruturado**
 

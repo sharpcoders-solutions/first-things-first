@@ -174,9 +174,9 @@ string result = sb.ToString();
 
 Now that you know how to optimize at the lowest level, the next level is:
 
-👉 **C# Fundamentals: Advanced API Security (OWASP Top 10 in Practice)**
+👉 **C# Fundamentals: Enums and Bitwise Flags**
 
-Here you'll learn to protect your application against the most common, most exploited real-world vulnerabilities.
+Here you'll learn to model combinable sets of options in a type-safe way, without resorting to magic strings or a pile of loose booleans.
 
 ## ✍️ Author's Note
 

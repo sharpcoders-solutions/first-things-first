@@ -7,7 +7,7 @@
 
 So far, you've learned:
 
-- Testcontainers for testing against real dependencies  
+- Concurrent collections for multiple threads accessing the same data  
 - Code coverage as a quality metric for tests  
 
 Your test suite has 95% coverage. Does that mean your tests are good? Not necessarily — coverage only measures whether a line **ran**, not whether the test actually verified the right behavior. Mutation Testing answers that question.

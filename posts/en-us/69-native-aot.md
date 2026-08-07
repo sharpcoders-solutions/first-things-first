@@ -8,7 +8,7 @@
 So far, you've learned:
 
 - Source Generators for generating code at compile time  
-- Docker and deploying .NET applications (post 35)  
+- Performance in C# (Span, Memory, and Benchmarking)  
 
 Since the .NET architecture post (post 12), you've known that C# code compiles to IL, and the CLR translates it into machine code via JIT, at runtime. Native AOT eliminates that intermediate step entirely.
 

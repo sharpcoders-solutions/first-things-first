@@ -8,7 +8,7 @@
 So far, you've learned:
 
 - Unit testing with xUnit, isolating one class at a time  
-- The Outbox pattern for guaranteeing consistency between the database and messaging  
+- Advanced type features: iterators, custom operators, indexers, and static abstract members  
 
 Unit tests validate an isolated class. But do HTTP routing, JWT authentication, dependency injection, and the database actually work **together**? That's what integration tests answer.
 
@@ -166,9 +166,9 @@ public async Task GetOrders_WithValidToken_ShouldReturn200()
 
 Now that you can test your entire API in memory, the next level is:
 
-👉 **C# Fundamentals: Testcontainers**
+👉 **C# Fundamentals: Concurrent Collections (ConcurrentDictionary and Friends)**
 
-Here you'll learn to test against a real database, running in a container, without sacrificing test reliability.
+Here you'll learn to handle multiple threads accessing the same collection at once, without corrupting data or locking up your application.
 
 ## ✍️ Author's Note
 

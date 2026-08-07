@@ -7,7 +7,7 @@
 
 Até aqui, você aprendeu:
 
-- Testcontainers para testar contra dependências reais  
+- Coleções concorrentes para múltiplas threads acessando os mesmos dados  
 - Cobertura de código como métrica de qualidade dos testes  
 
 Sua suíte de testes tem 95% de cobertura. Isso significa que seus testes são bons? Não necessariamente — cobertura só mede se a linha **executou**, não se o teste realmente verificou o comportamento certo. Mutation Testing responde essa pergunta.

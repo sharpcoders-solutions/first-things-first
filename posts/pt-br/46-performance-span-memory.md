@@ -174,9 +174,9 @@ string resultado = sb.ToString();
 
 Agora que você sabe otimizar no nível mais baixo, o próximo nível é:
 
-👉 **Fundamentos do C#: Segurança Avançada em APIs (OWASP Top 10 na Prática)**
+👉 **Fundamentos do C#: Enums e Bitwise Flags**
 
-Aqui você vai aprender a proteger sua aplicação contra as vulnerabilidades mais comuns e mais exploradas do mundo real.
+Aqui você vai aprender a modelar conjuntos de opções combináveis de forma type-safe, sem recorrer a strings mágicas ou múltiplos booleanos soltos.
 
 ## ✍️ Nota dos autores
 

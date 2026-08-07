@@ -7,10 +7,10 @@
 
 So far, you've learned:
 
-- How to automate build, test, and deploy with CI/CD  
-- How to containerize and publish your application  
+- IDisposable and the Dispose pattern  
+- Streams and file I/O  
 
-Your API is live, publishing itself. But when something goes wrong at three in the morning, how do you find out **what**, **where**, and **why**?
+Your API is secured and persists real data. But when something goes wrong at three in the morning, how do you find out **what**, **where**, and **why**?
 
 👉 **That's exactly what structured logging is for**
 

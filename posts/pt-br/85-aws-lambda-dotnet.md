@@ -8,7 +8,7 @@
 Até aqui, você aprendeu:
 
 - Azure Functions e o modelo serverless  
-- Docker (post 35), que você pode empacotar e rodar em qualquer nuvem  
+- Deploy contínuo de aplicações .NET, que você pode empacotar e rodar em qualquer nuvem  
 
 O post anterior te apresentou serverless na Azure. Agora vamos ver a mesma filosofia na AWS — a maior nuvem pública do mundo, e provavelmente a que você vai encontrar em algum ponto da carreira.
 
@@ -139,9 +139,9 @@ dotnet lambda deploy-function --function-runtime provided.al2023
 
 Agora que você domina serverless nas duas maiores nuvens, o próximo nível é:
 
-👉 **Fundamentos do C#: Kubernetes**
+👉 **Fundamentos do C#: DateOnly e TimeOnly**
 
-Aqui você vai aprender a orquestrar containers em escala, o próximo passo depois do Docker do post 35.
+Aqui você vai aprender os tipos que resolvem um problema antigo do `DateTime`: representar só uma data, ou só um horário, sem carregar a parte que não faz sentido para o seu domínio.
 
 ## ✍️ Nota dos autores
 

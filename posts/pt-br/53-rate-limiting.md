@@ -8,9 +8,9 @@
 Até aqui, você aprendeu:
 
 - Background jobs para tarefas fora do ciclo da requisição  
-- Segurança seguindo o OWASP Top 10  
+- Autenticação e autorização com JWT  
 
-Sua API está protegida contra vulnerabilidades clássicas, mas ainda existe um problema: nada impede que um único cliente (por erro ou má-fé) faça milhares de requisições por segundo e derrube o serviço para todo mundo.
+Sua API já autentica e autoriza corretamente quem pode acessar o quê, mas ainda existe um problema: nada impede que um único cliente autenticado (por erro ou má-fé) faça milhares de requisições por segundo e derrube o serviço para todo mundo.
 
 👉 **Vamos aprender a limitar taxa de requisições com Rate Limiting**
 

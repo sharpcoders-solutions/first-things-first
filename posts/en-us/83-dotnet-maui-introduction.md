@@ -67,7 +67,7 @@ public partial class OrdersPage : ContentPage
 }
 ```
 
-👉 XAML declares the interface (similar to Razor in Blazor, or HTML on the web), and C# handles the logic — the same separation of concerns you've already practiced since the Clean Architecture post (33)
+👉 XAML declares the interface (similar to Razor in Blazor, or HTML on the web), and C# handles the logic — the same separation of concerns you've already practiced since the SOLID post (28)
 
 ---
 
@@ -118,7 +118,7 @@ builder.Services.AddHttpClient<ApiClient>(client =>
 builder.Services.AddTransient<OrdersViewModel>();
 ```
 
-👉 Dependency injection (from the ASP.NET Core post), consuming a REST API (post 31) or GraphQL (post 80) — the data access logic you already master on the back-end works the same inside a MAUI app
+👉 Dependency injection (from the ASP.NET Core post), consuming a REST API (post 31) or GraphQL — the data access logic you already master on the back-end works the same inside a MAUI app
 
 ---
 

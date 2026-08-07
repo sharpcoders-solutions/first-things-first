@@ -186,9 +186,9 @@ builder.Services.AddScoped<IRepository<Product>, EfCoreRepository<Product>>();
 
 Now that your application persists real data, the next level is:
 
-👉 **C# Fundamentals: Clean Architecture in Practice**
+👉 **C# Fundamentals: Extension Methods and Custom LINQ**
 
-Here you'll organize everything you've learned — API, EF Core, SOLID, and design patterns — into well-defined layers, the way professional projects are actually structured.
+Here you'll understand the mechanism behind the LINQ you've used since post 19, and learn to create your own chainable operators.
 
 ## ✍️ Author's Note
 

@@ -8,7 +8,7 @@
 So far, you've learned:
 
 - .NET MAUI for cross-platform native apps  
-- Docker (post 35) and deploying complete .NET applications, always running  
+- Continuous deployment of complete .NET applications, always running (containers, VMs)  
 
 Every application you've built throughout this track stays "on" the whole time, waiting for requests. What if you only need to run code sporadically — image processing when a file is uploaded, a task at 3am? Serverless solves this.
 
@@ -108,7 +108,7 @@ Azure Functions:
   You pay only for the milliseconds of actual execution + number of invocations
 ```
 
-👉 For sporadic or unpredictable workloads, this completely changes the cost equation compared to the continuous deployment approaches from post 35
+👉 For sporadic or unpredictable workloads, this completely changes the cost equation compared to traditional, always-on continuous deployment approaches
 
 ---
 

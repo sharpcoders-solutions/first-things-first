@@ -7,8 +7,8 @@
 
 Até aqui, você aprendeu:
 
-- Toda a base de linguagem, arquitetura e segurança de uma API .NET  
-- Como versionar e documentar uma API em produção  
+- Toda a base da linguagem C#, tipos e como construir uma API .NET completa  
+- Recursos modernos da linguagem: enums, tuplas, tipos anônimos e a evolução do C#  
 
 Chegou a hora da segunda metade da trilha: construir os recursos que separam um sistema que "funciona" de um sistema **operado com maturidade** em produção.
 
